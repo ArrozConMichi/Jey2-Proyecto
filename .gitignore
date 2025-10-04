@@ -1,0 +1,30 @@
+# --- ARCHIVOS Y CARPETAS COMUNES ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.DS_Store
+.env
+.env.*
+venv/
+build/
+dist/
+tmp/
+*.sqlite3
+
+# --- ENTORNOS DE DESARROLLO ---
+.vscode/
+.idea/
+
+# --- FRONTEND ---
+node_modules/
+dist/
+*.local
+*.cache
+
+# --- BACKEND ---
+backend/__pycache__/
+backend/venv/
+backend/.env
+backend/.env.*
