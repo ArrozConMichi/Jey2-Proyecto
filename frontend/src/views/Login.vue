@@ -1,22 +1,7 @@
+<!-- Login.vue -->
 <template>
-  <div class="login-page">
-    <h1>Login 🚀</h1>
-    <!-- Aquí tus inputs, botones, etc -->
+  <div class="flex flex-col items-center justify-center min-h-screen">
+    <h1 class="text-4xl font-bold mb-4">🔐 Login</h1>
+    <p class="text-gray-500">Aquí irá el formulario de acceso</p>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'Login'
-}
-</script>
-
-<style scoped>
-.login-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: sans-serif;
-}
-</style>

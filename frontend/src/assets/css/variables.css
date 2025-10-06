@@ -1,0 +1,11 @@
+/* src/assets/css/variables.css */
+
+:root {
+  --color-primary: #2563eb;
+  --color-secondary: #facc15;
+  --color-danger: #dc2626;
+  --color-success: #16a34a;
+
+  --font-size-base: 16px;
+  --border-radius: 8px;
+}
